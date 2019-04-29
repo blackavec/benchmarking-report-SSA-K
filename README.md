@@ -67,4 +67,4 @@ the performance has been improved.
 
 After addressing the hypotheses above:
 
-Page load has improved from 5.89s to 1.66s **`(337%)`**
+Page load has improved from 5.89s to 1.66s **`(354%)`**
