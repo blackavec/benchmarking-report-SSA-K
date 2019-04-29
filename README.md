@@ -23,3 +23,20 @@ Requests per second:    203.75 [#/sec] (mean)
 
 **Result**
 caching is effective to reduce the page load.
+
+2 - adding max-age header on images on s3 might decrease the page load
+![compare](./gtmetrix-compare-adding-header-max-age.png)
+[Learn more](https://gtmetrix.com/compare/nSh87LCi/0UP0a0iJ)
+
+**Result**
+the improvement is indeed tangible 
+
+3 - by deferring images on rows `shop` and `industrial`, we can improve the performance of the page(page load)
+
+**Pre deferring**
+![pre-defer](./metrics-pre-defer.png)
+**Post deferring**
+![post-defer](./metrics-post-defer.png)
+
+**Result**
+
