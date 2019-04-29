@@ -11,6 +11,7 @@ ab -n 20 -c 1 -r http://localhost:3000/
 ```
 Requests per second:    1.32 [#/sec] (mean)
 ```
+
 ![image](./metrix-pre-cache.png)
 [Learn more](./ab-benchmark-20req-1cuncurrent-pre-cache.log)
 
@@ -41,9 +42,11 @@ the improvement is indeed tangible
 3 - by deferring images on rows `shop` and `industrial`, we can improve the performance of the page(page load)
 
 **Pre deferring**
+
 ![pre-defer](./metrics-pre-defer.png)
 
 **Post deferring**
+
 ![post-defer](./metrics-post-defer.png)
 
 **Result**
