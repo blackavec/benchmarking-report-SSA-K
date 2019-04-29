@@ -3,6 +3,10 @@
 ab -n 20 -c 1 -r http://localhost:3000/ 
 ```
 
+# Initial page performance
+
+![initial-page-performance](./initial-page-performance.png)
+
 # Hypotheses 
 
 1 - SSR + react is slow without caching mechanism.
@@ -51,5 +55,16 @@ the improvement is indeed tangible
 
 **Result**
 
+![gtmetrix](./gtmetrix-defer.png)
+
 the performance has been improved.
 
+# Post Improvement result
+
+![result](./final-page-load.png)
+
+# Summery
+
+After addressing the hypotheses above:
+
+Page load has improved from 5.89s to 1.66s **`(337%)`**
